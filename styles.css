@@ -28,3 +28,30 @@ nav {
   z-index: 200;
   display: none;
 }
+
+.nav-list {
+  background: #232323;
+  background-image: linear-gradient(to bottom, #232323, #626262);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  position: fixed;
+  z-index: 100;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item a {
+  font-style: 25px;
+  color: #f1f1f1;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+
