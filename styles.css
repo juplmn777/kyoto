@@ -6,12 +6,18 @@
   padding: 0;
 }
 
-h1 {
-  font-family: 'Merienda one', sans-serif;
-  font-size: 80px;
+body {
+  font-family: Nunito sans, sans-serif;
 }
 
-h2 {
-  font-family: 'Nunito Sans';
-  font-size: 50px;
+/* -----------Navigation-----------*/
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: #232323;
+  border-bottom: 1px dotted #f1f1f1;
+  background-image: linear-gradient(to bottom, #232323, #626262);
 }
+
+
