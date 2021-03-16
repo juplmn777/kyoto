@@ -54,4 +54,17 @@ nav {
   margin: 0 20px;
 }
 
+/*------nav-text underline animation------*/
+.list-item a::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 0%;
+  height: 2px;
+  background: #f1f1f1;
+  transition: all 0.2s ease-in-out;
+}
 
+.list-item a:hover::after {
+  width: 100%;
+}
