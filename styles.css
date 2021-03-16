@@ -20,4 +20,11 @@ nav {
   background-image: linear-gradient(to bottom, #232323, #626262);
 }
 
-
+.logo-menu {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  width: 50px;
+  z-index: 200;
+  display: none;
+}
