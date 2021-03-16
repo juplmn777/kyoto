@@ -20,7 +20,7 @@ nav {
   background-image: linear-gradient(to bottom, #232323, #626262);
 }
 
-.logo-menu {
+.btn-menu {
   position: fixed;
   top: 15px;
   right: 20px;
@@ -32,6 +32,7 @@ nav {
 .nav-list {
   background: #232323;
   background-image: linear-gradient(to bottom, #232323, #626262);
+  border-bottom: 1px dotted #f1f1f1;
   width: 100%;
   height: 80px;
   display: flex;
@@ -41,13 +42,13 @@ nav {
   z-index: 100;
 }
 
-.list-item {
+.nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.list-item a {
+.nav-item a {
   font-style: 25px;
   color: #f1f1f1;
   text-decoration: none;
@@ -55,7 +56,7 @@ nav {
 }
 
 /*------nav-text underline animation------*/
-.list-item a::after {
+.nav-item a::after {
   content: '';
   display: block;
   margin: 0 auto;
@@ -65,6 +66,27 @@ nav {
   transition: all 0.2s ease-in-out;
 }
 
-.list-item a:hover::after {
+.nav-item a:hover::after {
   width: 100%;
+}
+
+/*-------Responsive Toggle navbar--------*/
+@media screen and (max-width: 700px) {
+  .btn-menu {
+    display: block;
+  }
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-list.active {
+    display: block;
+  }
+  .nav-item {
+    height: 70px;
+  }
+  .nav-item:nth-child(1) {
+    margin-top: 70px;
+  }
 }
