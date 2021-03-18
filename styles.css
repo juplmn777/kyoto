@@ -540,7 +540,7 @@ nav {
 }
 
 .parallax p {
-  font-size: 100px;
+  font-size: 70px;
   color: #f1f1f1;
 }
 
@@ -553,6 +553,7 @@ nav {
 /* ============== responsive parallax section ==============*/
 @media screen and (max-width: 500px) {
   .parallax p {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
+
