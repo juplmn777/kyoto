@@ -26,7 +26,7 @@ nav {
   top: 15px;
   right: 20px;
   width: 50px;
-  z-index: 200;
+  z-index: 250;
   display: none;
 }
 
@@ -268,4 +268,14 @@ nav {
   display: block;
   margin: 10px auto;
   cursor: pointer;
+}
+
+/* ======== bloc-2 ======= */
+.bloc-2 {
+  grid-area: 10 / 4 / 15 / 5;
+  background: #232323;
+  color: #f1f1f1;
+  position: relative;
+  right: 100px;
+  border-radius: 2px;
 }
