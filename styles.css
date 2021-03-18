@@ -49,7 +49,7 @@ nav {
 }
 
 .nav-item a {
-  font-style: 25px;
+  font-size: 20px;
   color: #f1f1f1;
   text-decoration: none;
   margin: 0 20px;
@@ -70,11 +70,13 @@ nav {
   width: 100%;
 }
 
-/*-------Responsive--------*/
+/*-------Responsive Navbar--------*/
 @media screen and (max-width: 700px) {
-  /*====== navbar ======*/
   .btn-menu {
     display: block;
+    top: 20px;
+    right: 20px;
+    width: 40px;
   }
   .nav-list {
     display: none;
@@ -136,7 +138,6 @@ nav {
   color: #f1f1f1;
   text-align: center;
   font-size: 22px;
-  font-weight: bold;
   line-height: 50px;
   width: 200px;
   height: 50px;
@@ -150,3 +151,55 @@ nav {
   background: #f1f1f1;
   color: crimson;
 }
+
+/*============ Responsive Home section ============*/
+@media screen and (max-width: 850px) {
+  .home {
+    height: 650px;
+  }
+  .logo-door {
+    margin: 120px auto 0;
+  }
+  .home h1 {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .btn-home {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 20px auto 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    height: 550px;
+  }
+  .logo-door {
+    width: 150px;
+    margin: 110px auto 0;
+  }
+  .home h1 {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .btn-home {
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    margin: 20px auto 0;
+  }
+
+  .btn-menu{
+    top: 15px;
+    width: 40px;
+  }
+}
+
