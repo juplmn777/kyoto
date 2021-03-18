@@ -279,3 +279,10 @@ nav {
   right: 100px;
   border-radius: 2px;
 }
+
+.bloc-2 img{
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  width: 100%;
+}
