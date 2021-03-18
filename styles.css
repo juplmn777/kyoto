@@ -18,6 +18,7 @@ nav {
   background: #232323;
   border-bottom: 1px dotted #f1f1f1;
   background-image: linear-gradient(to bottom, #232323, #626262);
+  z-index: 100;
 }
 
 .btn-menu {
@@ -39,7 +40,7 @@ nav {
   justify-content: center;
   list-style-type: none;
   position: fixed;
-  z-index: 100;
+  z-index: 200;
 }
 
 .nav-item {
