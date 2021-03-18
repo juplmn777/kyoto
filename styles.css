@@ -220,3 +220,15 @@ nav {
   font-size: 70px;
   padding-top: 50px;
 }
+
+/* bloc-1*/
+.bloc-1 {
+  grid-area: 3/2/8/3;
+  background: #232323;
+  color: #f1f1f1;
+  position: relative;
+  left: 100px;
+  border-radius: 2px;
+}
+
+
