@@ -212,7 +212,7 @@ nav {
 }
 
 .activities-section h2 {
-  grid-area: 1 /1 /2/-1;
+  grid-area: 1 / 1 / 2 / -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,4 +236,35 @@ nav {
   left: 300px;
   top: 100px;
   width: 100%;
+}
+
+.bloc-text-1 {
+  width: 50%;
+  height: 100%;
+}
+
+.bloc-text-1 h3 {
+  width: 150% !important;
+  font-size: 35px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.bloc-text-1 p {
+  line-height: 40px;
+  padding: 15px;
+}
+
+.btn-bloc-left {
+  border-radius: 9999px;
+  outline: 0;
+  border: 0;
+  background: crimson;
+  border: 1px solid #232323;
+  color: #f1f1f1;
+  padding: 20px 35px;
+  font-size: 20px;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
 }
