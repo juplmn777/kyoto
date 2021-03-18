@@ -197,9 +197,18 @@ nav {
     margin: 20px auto 0;
   }
 
-  .btn-menu{
+  .btn-menu {
     top: 15px;
     width: 40px;
   }
 }
+
+/*============= Section Activitiés ============*/
+.activities-section {
+  display: grid;
+  grid-template-rows: 200px repeat(24, 150px);
+  grid-template-columns: 1fr 600px 1fr 600px;
+  background: #f1f1f1;
+}
+
 
