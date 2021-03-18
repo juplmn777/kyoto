@@ -211,4 +211,12 @@ nav {
   background: #f1f1f1;
 }
 
-
+.activities-section h2 {
+  grid-area: 1 /1 /2/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #232323;
+  font-size: 70px;
+  padding-top: 50px;
+}
