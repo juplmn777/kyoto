@@ -750,3 +750,13 @@ label {
   color: #f1f1f1;
   background: #232323;
 }
+
+/* ======= Responsive form ========*/
+@media screen and (max-width:1300px){
+  .contact-section h2 {
+    padding: 70px 0 0 0 ;
+  }
+  .form-container {
+    padding-left: 0;
+  }
+}
