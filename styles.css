@@ -581,3 +581,18 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.prices-card {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  transition: all 0.2 ease-in-out;
+  position: relative;
+}
+
+.prices-card:hover{
+  transform: translateY(-5px);
+}
