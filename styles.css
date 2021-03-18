@@ -730,6 +730,23 @@ label {
   background: #f1f1f1;
 }
 
-.form-group:nth-child(4){
+.form-group:nth-child(4) {
   margin-bottom: 25px;
+}
+
+.form-group .submit-button {
+  display: block;
+  width: auto;
+  padding: 15px 60px;
+  border: 3px solid #232323;
+  border-radius: 9999px;
+  color: #232323;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.form-group .submit-button:hover {
+  color: #f1f1f1;
+  background: #232323;
 }
