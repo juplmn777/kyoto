@@ -588,11 +588,69 @@ nav {
   border-radius: 5px;
   margin: 15px;
   cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   transition: all 0.2 ease-in-out;
   position: relative;
 }
 
-.prices-card:hover{
+.prices-card:hover {
   transform: translateY(-5px);
+}
+
+.prices-card h4 {
+  text-align: center;
+  padding: 25px;
+  font-size: 35px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  background: #ffafbf;
+}
+
+.prices-card span {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.prices-card:nth-child(2) h4 {
+  background: #ff5073;
+}
+
+.prices-card:nth-child(3) h4 {
+  background: #ff0033;
+}
+
+.prices-card p {
+  font-size: 18px;
+  padding: 20px;
+  border-top: 1px solid rgb(194, 194, 194);
+}
+
+.prices-card p:last-of-type {
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.prices-card p:nth-last-child(odd) {
+  background: rgba(195, 195, 195, 0.2);
+}
+
+.prices-card a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #232323;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 9999px;
+  color: #232323;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 20px auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.prices-card a:hover{
+  color: #f1f1f1;
+  background: #232323;
 }
