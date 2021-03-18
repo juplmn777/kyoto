@@ -535,7 +535,8 @@ nav {
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;align-items: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -557,3 +558,20 @@ nav {
   }
 }
 
+/* =========== Prices Section =========== */
+.prices-section {
+  padding-bottom: 150px;
+  border-bottom: 1px dashed #232323;
+}
+
+.prices-section h3 {
+  text-align: center;
+  font-size: 45px;
+  margin: 120px 0 20px;
+  padding: 0 30px;
+}
+
+.prices-section hr {
+  width: 200px;
+  margin: 20px auto 100px;
+}
