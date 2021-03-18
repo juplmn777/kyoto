@@ -575,3 +575,9 @@ nav {
   width: 200px;
   margin: 20px auto 100px;
 }
+
+.prices-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
