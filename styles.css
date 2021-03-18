@@ -231,4 +231,9 @@ nav {
   border-radius: 2px;
 }
 
-
+.bloc-1 img {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  width: 100%;
+}
